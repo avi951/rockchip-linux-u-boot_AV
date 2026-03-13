@@ -57,6 +57,7 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += \
 	rk3399-puma-ddr1600.dtb \
 	rk3399-puma-ddr1866.dtb \
 	rv1108-evb.dtb \
+	rk3576-axon-lite.dtb \
 	rk3588-axon.dtb \
 	rk3399-vaaman.dtb
 dtb-$(CONFIG_ARCH_MESON) += \
