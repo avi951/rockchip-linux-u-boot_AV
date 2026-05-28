@@ -33,7 +33,22 @@ config TARGET_RK3588_AXON
 	  as well as micro HDMI ports and
 	  2 x USB Type-C connectors for power delivery, 3.1 USB and DP.
 
+config TARGET_RK3588_AXON_CM
+	bool "Vicharak RK3588 Axon Computer Module board"
+	select BOARD_LATE_INIT
+	help
+	The AXON-CM is a compact, high-performance System-on-Module (SoM)
+	based on the Rockchip RK3588 octa-core processor, featuring world’s
+        first integrated on-board Wi-Fi and Bluetooth module.
+
+        Designed in a space-efficient 72 mm × 50 mm form factor with
+        four 120-pin connectors, it delivers powerful AI computing with a 6 TOPS NPU,
+        support for 8K video, and high-speed LPDDR5 memory.
+        Ideal for edge AI, multimedia, and industrial applications,the AXON-CM delivers
+        rich I/O, robust performance and advanced connectivity in a compact footprint.
+
 source board/rockchip/evb_rk3588/Kconfig
 source board/vicharak/rk3588_axon/Kconfig
+source board/vicharak/rk3588_axon_cm/Kconfig
 
 endif

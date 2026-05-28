@@ -1,0 +1,15 @@
+if TARGET_RK3588_AXON_CM
+
+config SYS_BOARD
+	default "rk3588_axon_cm"
+
+config SYS_VENDOR
+	default "vicharak"
+
+config SYS_CONFIG_NAME
+	default "rk3588_axon_cm"
+
+config BOARD_SPECIFIC_OPTIONS
+	def_bool y
+
+endif
